@@ -54,7 +54,6 @@ type ZookeeperClusterStatus struct {
 	LastTransitionTime metav1.Time `json:"lastTransitionTime,omitempty"`
 }
 
-// +genclient
 // +k8s:deepcopy-gen:interfaces=k8s.io/apimachinery/pkg/runtime.Object
 
 // ZookeeperClusterList contains a list of ZookeeperCluster

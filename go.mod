@@ -1,4 +1,4 @@
-module zookeeper-operator
+module github.com/pravega/zookeeper-operator
 
 go 1.21.3
 
